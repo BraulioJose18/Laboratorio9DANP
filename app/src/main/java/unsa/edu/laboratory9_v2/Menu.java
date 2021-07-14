@@ -18,8 +18,6 @@ public class Menu extends AppCompatActivity {
 
     Button cameraDos, intentCamera;
     private ActivityResultLauncher <String> activityResultLauncher;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

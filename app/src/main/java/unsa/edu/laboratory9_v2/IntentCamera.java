@@ -59,7 +59,7 @@ public class IntentCamera extends AppCompatActivity {
     }
 
     private Uri generarURI() {
-        String timeStamp = new SimpleDateFormat("yyyyMMdd", Locale.US).format(System.currentTimeMillis());
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(System.currentTimeMillis());
         String fileName = "IMG_"+timeStamp+".png";
         return Uri.fromFile(new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), fileName));
     }
@@ -73,3 +73,4 @@ public class IntentCamera extends AppCompatActivity {
         }
     }
 }
+
