@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Laboratorio 8 - Cámara"
+        android:text="Laboratorio 9 - Cámara"
         android:textColor="@color/blue"
         android:textStyle="bold"
         android:textSize="30sp"
